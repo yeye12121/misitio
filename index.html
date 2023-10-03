@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página de Inicio</title>
+
+    <!-- Enlaces a los CDN de Bootstrap y la fuente personalizada Nosifer -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+    <!-- Enlace a la fuente personalizada Nosifer -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Nosifer&display=swap">
+
+    <style>
+        body {
+            background-color: #ffffff;
+            color: #000000;
+            font-family: 'Nosifer', cursive; /* Aplicar la fuente personalizada Nosifer a todo el texto */
+        }
+        #menu {
+            background-color: #58B2AF;
+        }
+        .jumbotron {
+            background-image: url('https://cdn.pixabay.com/photo/2018/09/27/09/22/artificial-intelligence-3706562_1280.jpg');
+            background-size: cover;
+            text-align: center;
+            padding: 100px;
+            color: #ffffff;
+        }
+        .jumbotron h1, .jumbotron p {
+            background-color: rgba(255, 255, 255, 0.7);
+            padding: 10px;
+            font-style: italic; /* Aplicar cursiva a los elementos del jumbotron */
+        }
+        .jumbotron img {
+            opacity: 0.4;
+        }
+    </style>
+</head>
+<body>
+
+<nav id="menu" class="navbar navbar-expand-lg">
+    <div class="container">
+        <a class="navbar-brand" href="index.html">Inicio</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="equipo.html">Equipo</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="noticias.html">Noticias</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<div class="jumbotron">
+    <h1>Bienvenido a nuestro sitio web</h1>
+    <p>Somos una organización comprometida con la inteligencia artificial.</p>
+</div>
+
+<div class="container">
+    <div class="row">
+        <div class="col">
+            <h2>Contenido Principal</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer euismod est vel est posuere, id vulputate nisl sollicitudin.</p>
+            <p>Nulla facilisi. Morbi hendrerit tortor at leo tincidunt, eget rhoncus neque dictum. Fusce nec justo sit amet felis malesuada laoreet.</p>
+            <p>Phasellus eget leo vitae nisi bibendum congue. Sed vehicula libero in mauris congue, non vestibulum felis interdum.</p>
+        </div>
+        <div class="col">
+            <iframe width="100%" height="315" src="https://www.youtube.com/embed/K5pkkuiyRzk" frameborder="0" allowfullscreen></iframe>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>
